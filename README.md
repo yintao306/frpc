@@ -103,6 +103,22 @@ docker restart frps
 # 重启 frps 容器即可生效
 ```
 
+宝塔docker-compose
+
+services:
+  frpc:
+    image: stilleshan/frpc:0.36.2
+    container_name: frpc
+    restart: always
+    volumes:
+      - /root/frp/frpc.ini:/frp/frpc.ini
+    networks:
+      - frp_network
+
+networks:
+  frp_network:
+    driver: bridge
+
 ## 链接
 - Blog [www.ioiox.com](https://www.ioiox.com)
 - GitHub [stilleshan/frps](https://github.com/stilleshan/frps)
