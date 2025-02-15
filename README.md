@@ -104,7 +104,7 @@ docker restart frps
 ```
 
 宝塔docker-compose
-
+```
 services:
   frpc:
     image: stilleshan/frpc:0.36.2
@@ -118,7 +118,7 @@ services:
 networks:
   frp_network:
     driver: bridge
-
+```
 ## 链接
 - Blog [www.ioiox.com](https://www.ioiox.com)
 - GitHub [stilleshan/frps](https://github.com/stilleshan/frps)
