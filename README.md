@@ -103,7 +103,7 @@ docker restart frps
 # 重启 frps 容器即可生效
 ```
 
-宝塔docker-compose
+###宝塔docker-compose
 ```
 services:
   frpc:
