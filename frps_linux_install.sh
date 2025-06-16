@@ -12,8 +12,8 @@ Font="\033[0m"
 # fonts color
 
 # variable
-FRP_VERSION=0.52.0
-REPO=stilleshan/frps
+FRP_VERSION=0.62.1
+REPO=yintao306/frpc
 WORK_PATH=$(dirname $(readlink -f $0))
 FRP_NAME=frps
 FRP_PATH=/usr/local/frp
